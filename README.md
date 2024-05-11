@@ -16,6 +16,7 @@
 ### Conteúdo
 
 - [🧘 Sobre o Zen AI](#-sobre-o-zen-ai)
+  - [EI! Você! Avaliador do Desafio Alura](#ei-você-avaliador-do-desafio-alura-o-zen-ai-tem-um-recadinho-pra-você)
   - [Chat](#chat)
     - [Criar aulas de yoga, com tempo e objetivos determinados](#criar-aulas-de-yoga-com-tempo-e-objetivos-determinados)
   - [Lista e busca de FAQs (Perguntas ferquentes)](#lista-e-busca-de-faqs-perguntas-ferquentes)
@@ -35,7 +36,7 @@ Sou como um instrutor de Yoga virtual, sempre pronto para compartilhar dicas, cu
 Lembre-se, estou aqui para te auxiliar no caminho do Yoga e do bem-estar. 😄
 Namastê! 🙏
 
-#### EI! Você! Avaliador do Desafio Alura IA... o Zen AI tem um recadinho pra você:
+#### EI! Você! Avaliador do Desafio Alura... o Zen AI tem um recadinho pra você:
 
 ![](./static/images/docs/screen-5.jpg)
 
