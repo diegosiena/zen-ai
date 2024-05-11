@@ -36,7 +36,7 @@ Sou como um instrutor de Yoga virtual, sempre pronto para compartilhar dicas, cu
 Lembre-se, estou aqui para te auxiliar no caminho do Yoga e do bem-estar. 😄
 Namastê! 🙏
 
-#### EI! Você! Avaliador do Desafio Alura... o Zen AI tem um recadinho pra você:
+### EI! Você! Avaliador do Desafio Alura... o Zen AI tem um recadinho pra você:
 
 ![](./static/images/docs/screen-5.jpg)
 
@@ -63,8 +63,6 @@ Veja alguns exemplos, com o que foi solicitado e o retorno:
   
   <img src="./static/images/docs/screen-3.jpg" />
 </details>
-
-<br />
 
 ### Lista e busca de FAQs (Perguntas ferquentes)
 
