@@ -8,7 +8,8 @@
   
   <p>
     <a href=""><u>Acessar Zen AI</u></a>
-    |
+  </p>
+  <p>
     <a href="https://youtu.be/aY1H-ZN5k6o">
     <img height="16" src="https://www.youtube.com/s/desktop/92fdfad2/img/favicon_32x32.png" /> 
     <u>Video/Demo</u>
