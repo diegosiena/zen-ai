@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/84dca250-e8da-4882-9d5e-c3ecb3c12824/deploy-status)](https://app.netlify.com/sites/zen-ai/deploys)
+
 <div align="center">
   <img src="./static/favicon.png" alt="Imagem do projeto">
   <h1 class="nome">Zen AI</h1>
@@ -7,7 +9,7 @@
   </p>
   
   <p>
-    <a href=""><u>Acessar Zen AI</u></a>
+    <a href="https://zen-ai.netlify.app/"><u>Acessar Zen AI</u></a>
   </p>
   <p>
     <a href="https://youtu.be/aY1H-ZN5k6o">
