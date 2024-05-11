@@ -59,7 +59,7 @@
 </script>
 
 <section class="container mx-auto space-y-8 p-8">
-	<div class="grid-flow-col[auto_1fr] grid h-full gap-4">
+	<div class="grid h-full gap-4">
 		<div class="flex flex-col space-y-4 overflow-y-auto rounded bg-primary-100 p-4">
 			{#each history as message, index}
 				{#if index > 0}
@@ -71,7 +71,7 @@
 				<Message message={null} loading={loadingChat} />
 			{/if}
 		</div>
-		<div class="">
+		<div>
 			<div class="input-group input-group-divider grid-cols-[1fr_auto] rounded-container-token">
 				<textarea
 					bind:value={currentMessage}
