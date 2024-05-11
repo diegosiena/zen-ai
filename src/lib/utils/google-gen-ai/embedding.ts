@@ -54,5 +54,7 @@ export const performQuery = async (
 	// sort response by value
 	const sortedResponse = response.sort((a, b) => b.percentage - a.percentage);
 
-	return sortedResponse.slice(0, 3);
+	const firstThree = sortedResponse.slice(0, 3);
+	console.log('PERFORM QUERY: query:', queryText, '. firstThree:', firstThree);
+	return firstThree;
 };

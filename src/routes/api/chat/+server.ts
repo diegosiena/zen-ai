@@ -4,6 +4,7 @@ import { error, json } from '@sveltejs/kit';
 /** @type {import('./$types').RequestHandler} */
 export async function POST({ request }) {
 	const { message, history } = await request.json();
+	console.log('INCOMING CHAT. message:', message);
 
 	if (!message) {
 		return error(400, 'Missing message');
