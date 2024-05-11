@@ -1,12 +1,9 @@
 <script>
+	import Home from '$lib/components/Home.svelte';
 </script>
 
 <svelte:head>
-	<title>Yoga AI - Home</title>
-	<meta name="description" content="Yoga AI App" />
+	<title>Zen AI - Home</title>
 </svelte:head>
 
-<section></section>
-
-<style>
-</style>
+<Home />
