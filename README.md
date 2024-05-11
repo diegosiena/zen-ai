@@ -5,6 +5,7 @@
   <p >
   Namaste! 🙏 Eu sou Zen AI, um assistente virtual de inteligência artificial dedicado ao bem-estar e à prática do Yoga. 🧘‍♀️
   </p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/aY1H-ZN5k6o?si=3vnIEKZjSvzCvsRn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   <p>
     <a href=""><u>Acessar Zen AI</u></a>
   </p>
