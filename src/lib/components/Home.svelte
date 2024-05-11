@@ -59,6 +59,15 @@
 </script>
 
 <section class="container mx-auto space-y-8 p-8">
+	<aside class="alert variant-ghost-warning">
+		<div class="alert-message">
+			<p>
+				Este é apenas um projeto demonstrativo. Erros são esperados, principalmente devido aos
+				limites de requisições da API gratuita do Google AI. Em caso de erro, recarregue a página e
+				tente novamente.
+			</p>
+		</div>
+	</aside>
 	<div class="grid h-full gap-4">
 		<div class="flex flex-col space-y-4 overflow-y-auto rounded bg-primary-100 p-4">
 			{#each history as message, index}
