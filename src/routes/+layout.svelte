@@ -29,6 +29,10 @@
 				<strong class="text-3xl">Zen AI </strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
+				<p>
+					Feito com ❤️ por
+					<a href="https://www.github.com/diegosiena"><u>Diego Siena</u></a>
+				</p>
 				<a
 					class="variant-ghost-surface btn btn-sm"
 					href="https://github.com/diegosiena/zen-ai"
