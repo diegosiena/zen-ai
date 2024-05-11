@@ -11,7 +11,7 @@
   </p>
   <p>
     <a href="https://youtu.be/aY1H-ZN5k6o">
-    <img height="16" src="https://www.youtube.com/s/desktop/92fdfad2/img/favicon_32x32.png" /> 
+    <img height="16" target="_blank" src="https://www.youtube.com/s/desktop/92fdfad2/img/favicon_32x32.png" /> 
     <u>Video/Demo</u>
     </a>
   </p>
