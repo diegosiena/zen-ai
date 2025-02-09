@@ -9,13 +9,7 @@
   </p>
 
   <p>
-    <a href="https://zen-ai.netlify.app/"><u>Access Zen AI</u></a>
-  </p>
-  <p>
-    <a href="https://youtu.be/aY1H-ZN5k6o">
-    <img height="16" target="_blank" src="https://www.youtube.com/s/desktop/92fdfad2/img/favicon_32x32.png" />
-    <u>Video/Demo</u>
-    </a>
+    <a href="https://zen-ai.netlify.app/"><u>🖥️ Zen AI Live Demo</u></a>
   </p>
   <sub>Made with ❤️ by
   <a href="https://www.github.com/diegosiena"><u>Diego Siena</u></a>
