@@ -1,153 +1,146 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/84dca250-e8da-4882-9d5e-c3ecb3c12824/deploy-status)](https://app.netlify.com/sites/zen-ai/deploys)
 
 <div align="center">
-  <img src="./static/favicon.png" alt="Imagem do projeto">
+  <img src="./static/favicon.png" alt="Project Image">
   <h1 class="nome">Zen AI</h1>
 
-  <p >
-  Namaste! 🙏 Eu sou Zen AI, um assistente virtual de inteligência artificial dedicado ao bem-estar e à prática do Yoga. 🧘‍♀️
-  </p>
-  
   <p>
-    <a href="https://zen-ai.netlify.app/"><u>Acessar Zen AI</u></a>
+  Namaste! 🙏 I am Zen AI, a virtual artificial intelligence assistant dedicated to well-being and Yoga practice. 🧘‍♀️
+  </p>
+
+  <p>
+    <a href="https://zen-ai.netlify.app/"><u>Access Zen AI</u></a>
   </p>
   <p>
     <a href="https://youtu.be/aY1H-ZN5k6o">
-    <img height="16" target="_blank" src="https://www.youtube.com/s/desktop/92fdfad2/img/favicon_32x32.png" /> 
+    <img height="16" target="_blank" src="https://www.youtube.com/s/desktop/92fdfad2/img/favicon_32x32.png" />
     <u>Video/Demo</u>
     </a>
   </p>
-  <sub>Feito com ❤️ por 
+  <sub>Made with ❤️ by
   <a href="https://www.github.com/diegosiena"><u>Diego Siena</u></a>
   </sub>
 </div>
 
-### Conteúdo
+### Contents
 
-- [🧘 Sobre o Zen AI](#-sobre-o-zen-ai)
-  - [EI! Você! Avaliador do Desafio Alura](#ei-você-avaliador-do-desafio-alura-o-zen-ai-tem-um-recadinho-pra-você)
+- [🧘 About Zen AI](#-about-zen-ai)
   - [Chat](#chat)
-    - [Criar aulas de yoga, com tempo e objetivos determinados](#criar-aulas-de-yoga-com-tempo-e-objetivos-determinados)
-  - [Lista e busca de FAQs (Perguntas ferquentes)](#lista-e-busca-de-faqs-perguntas-ferquentes)
-- [🧠 Conceitos de IA](#-conceitos-de-ia)
-  - [Embedding de conteúdo](#embedding-de-conteúdo)
-  - [Chat/Conversação com o modelo](#chatconversação-com-o-modelo)
+    - [Create Yoga classes with a set duration and objectives](#create-yoga-classes-with-a-set-duration-and-objectives)
+  - [FAQ List and Search](#faq-list-and-search)
+- [🧠 AI Concepts](#-ai-concepts)
+  - [Content Embedding](#content-embedding)
+  - [Chat/Conversation with the Model](#chatconversation-with-the-model)
   - [Prompt Engineering/System Instructions](#prompt-engineeringsystem-instructions)
-- [👨‍💻 Tech stack](#-tech-stack)
+- [👨‍💻 Tech Stack](#-tech-stack)
   - [Developing](#developing)
 
-# 🧘 Sobre o Zen AI
+# 🧘 About Zen AI
 
 ![](./static/images/docs/screen-1.jpg)
 
-Meu objetivo é te guiar em sua jornada de autoconhecimento e saúde, respondendo suas dúvidas sobre Yoga, meditação, mindfulness e tudo que envolve o bem-estar físico e mental.
-Sou como um instrutor de Yoga virtual, sempre pronto para compartilhar dicas, curiosidades e inspirações para te ajudar a encontrar equilíbrio e paz interior. ✨
-Lembre-se, estou aqui para te auxiliar no caminho do Yoga e do bem-estar. 😄
-Namastê! 🙏
-
-### EI! Você! Avaliador do Desafio Alura... o Zen AI tem um recadinho pra você:
-
-![](./static/images/docs/screen-5.jpg)
+My goal is to guide you on your journey of self-discovery and health, answering your questions about Yoga, meditation, mindfulness, and everything related to physical and mental well-being.
+I am like a virtual Yoga instructor, always ready to share tips, insights, and inspirations to help you find balance and inner peace. ✨
+Remember, I am here to assist you on the path of Yoga and well-being. 😄
+Namaste! 🙏
 
 ### Chat
 
-O chat Zen AI está pronto para responder as suas perguntas e fazer coisas incríveis por você. Quer ver um exemplo?
+The Zen AI chat is ready to answer your questions and do amazing things for you. Want to see an example?
 
-#### Criar aulas de yoga, com tempo e objetivos determinados
+#### Create Yoga classes with a set duration and objectives
 
-Veja alguns exemplos, com o que foi solicitado e o retorno:
+Here are some examples of requested classes and the responses:
 
 <details>
-  <summary><b><i>"Olá. Crie uma aula de yoga, de 30 minutos, para gestantes."</i></b></summary>
+  <summary><b><i>"Hello. Create a 30-minute Yoga class for pregnant women."</i></b></summary>
   <br />
-  
+
   <img src="./static/images/docs/screen-2.jpg" />
 </details>
 
   <br />
 
 <details>
-  <summary><b><i>"Olá. Crie uma aula de yoga, de 30 minutos, para crianças, com foco em alongamento"</i></b></summary>
+  <summary><b><i>"Hello. Create a 30-minute Yoga class for children, focusing on stretching."</i></b></summary>
   <br />
-  
+
   <img src="./static/images/docs/screen-3.jpg" />
 </details>
 
-### Lista e busca de FAQs (Perguntas ferquentes)
+### FAQ List and Search
 
-Na página de Perguntas Frequentes, você pode buscar utilizando texto, fazendo perguntas ou por termos que possam estar presentes nas respostas.
+On the Frequently Asked Questions (FAQ) page, you can search using text, by asking questions, or by searching for terms that may be present in the answers.
 
-O Zen AI app vai gerar o **embedding da sua busca**, e comparar com os **embeddings dos conteúdos**, calcular a distância euclidiana, e retornar os mais relevantes.
+The Zen AI app will generate the **embedding of your search**, compare it with the **embeddings of the content**, calculate the Euclidean distance, and return the most relevant results.
 
 <details>
-  <summary><b>Veja um exemplo (repare no "Score" ao lado da pergunta):</b></summary>
+  <summary><b>See an example (note the "Score" next to the question):</b></summary>
   <br />
-  
+
   <img src="./static/images/docs/screen-4.jpg" />
 </details>
 
-# 🧠 Conceitos de IA
+# 🧠 AI Concepts
 
-Detalhes sobre os conceitos de IA utilizados no projeto e como foram utilizados para obter melhores resultados.
+Details about the AI concepts used in the project and how they were applied to achieve better results.
 
-### Embedding de conteúdo
+### Content Embedding
 
-O embedding de cada pergunta frequente (e sua resposta) foi calculado e salvo na lista da `faqs`, evitando a necessidade de recalcular a cada nova chamada da API.
+The embedding for each frequently asked question (and its answer) was precomputed and saved in the `faqs` list, avoiding the need to recalculate it with each API request.
 
-O embed foi feito através da função [embedRetrievalFaqs](https://github.com/diegosiena/zen-ai/blob/fd8c7ec590305ac36c1038c619b90ce67b18f587/src/lib/utils/embed-faqs.ts#L9). Clique para ver mais.
-Aqui está o exemplo de como ficou a lista de FAQs.
+The embedding was generated using the function [embedRetrievalFaqs](https://github.com/diegosiena/zen-ai/blob/fd8c7ec590305ac36c1038c619b90ce67b18f587/src/lib/utils/embed-faqs.ts#L9). Click to learn more.
+
+Here’s an example of how the FAQ list looks:
 
 ```typescript
 export const faqs: Faq[] = [
   {
-    question: 'O que é Yoga? 🤔',
+    question: 'What is Yoga? 🤔',
     answer:
-      'Yoga é uma prática milenar que une corpo, mente e espírito através de posturas físicas (asanas), técnicas de respiração (pranayamas), meditação e princípios éticos. ✨',
+      'Yoga is an ancient practice that unites body, mind, and spirit through physical postures (asanas), breathing techniques (pranayamas), meditation, and ethical principles. ✨',
     values: [0.015996197, -0.0033414727, ..., -0.02644008]
   }
   //...
 ];
 ```
 
-Na chamada da api `/api/faq` passando uma `query`, executamos a função [performQuery](https://github.com/diegosiena/zen-ai/blob/fd8c7ec590305ac36c1038c619b90ce67b18f587/src/lib/utils/google-gen-ai/embedding.ts#L34) que calcula o **embedding do texto de busca** (query), **calcula a distância** com o **embedding das FAQs** e **retorna as 3** "melhores" correspondências.
+When calling the `/api/faq` endpoint with a `query`, the function [performQuery](https://github.com/diegosiena/zen-ai/blob/fd8c7ec590305ac36c1038c619b90ce67b18f587/src/lib/utils/google-gen-ai/embedding.ts#L34) is executed.
+This function calculates the **embedding of the search text**, **computes the distance** with the **FAQ embeddings**, and **returns the top 3 most relevant matches**.
 
-### Chat/Conversação com o modelo
+### Chat/Conversation with the Model
 
-Para a conversação com o modelo, basicamente utilizamos as funções `model.startChat({...});` e `chat.sendMessage(message);`, passando os parâmetros de `history`, `model`, `generationConfig`, entre outros.
+For conversation with the model, we primarily use the functions `model.startChat({...});` and `chat.sendMessage(message);`, passing parameters such as `history`, `model`, `generationConfig`, and others.
 
-[Veja o arquivo `chat.ts`](https://github.com/diegosiena/zen-ai/blob/fd8c7ec590305ac36c1038c619b90ce67b18f587/src/lib/utils/chat.ts), responsável pela função de chat/conversação.
+[See the `chat.ts` file](https://github.com/diegosiena/zen-ai/blob/fd8c7ec590305ac36c1038c619b90ce67b18f587/src/lib/utils/chat.ts), which handles chat/conversation functionality.
 
 ### Prompt Engineering/System Instructions
 
-A engenharia de prompt foi muito relevante para o desenvolvimento do Zen AI. Com o objetivo de:
+Prompt engineering played a crucial role in Zen AI’s development, with the goal of:
 
-- Limitar o assistente a assuntos de Yoga e bem-estar.
-- Definir o tom e formatação das repostas.
-- Definir o formato de resposta das aulas/sequências de yoga.
-- A mensagem inicial (boas-vindas e instruções).
+- Restricting the assistant to topics related to Yoga and well-being.
+- Defining the tone and formatting of responses.
+- Setting the response format for Yoga classes/sequences.
+- Creating the initial welcome message and instructions.
 
-> [!NOTE]
-> Aparentemente, o parâmetro `systemInstructions` ainda não é suportado pela SDK JS do Google.
-> Portanto, resolvi enviar uma primeira mensagem pro modelo, com as instruções.
-
-Veja as instruções enviadas ao modelo:
+Here are the system instructions sent to the model:
 
 ```typescript
-message =
-	'Você é um assistente de Yoga chamado Zen AI. Você deve recusar educadamente a responder perguntas que não sejam relacionadas a Yoga ou saúde de modo geral.\
-    Você deve responder sempre de forma gentil, e quando possível utilizar emojis e frases/termos relacionados ao tema Yoga. \
-    Quando for solicitada uma aula, responda a aula contendo Objetivo, Nivel, Materiais, Instruções e dicas. \
-    Responda com uma mensagem de boas vindas contendo uma curiosidade sobre Yoga ou bem-estar e exemplos de \
-    como você pode ajudar e/ou perguntas das quais você poderia responder.';
+{
+	systemInstruction: 'You are a Yoga assistant called Zen AI. \
+    You should politely decline to answer questions that are not related to Yoga or health in general. \
+    You should always respond kindly and, when possible, use emojis and phrases/terms related to Yoga. \
+    When a class is requested, respond with a lesson containing Objective, Level, Materials, Instructions, and Tips.';
+}
 ```
 
-# 👨‍💻 Tech stack
+# 👨‍💻 Tech Stack
 
 - [@google/generative-ai](https://github.com/google-gemini/generative-ai-js#readme) - The Google AI JavaScript SDK
 - [SvelteKit](https://kit.svelte.dev/) - The fastest way to build Svelte apps
-- [Skeleton UI](https://skeleton.dev/) - The UI toolkit for Svelte and Tailwind.
+- [Skeleton UI](https://skeleton.dev/) - The UI toolkit for Svelte and Tailwind
 - [Tailwind](https://tailwindcss.com/) - A utility-first CSS framework
-- [Typescript](https://www.typescriptlang.org/) - TypeScript is JavaScript with syntax for types.
+- [Typescript](https://www.typescriptlang.org/) - JavaScript with type syntax
 
 ## Developing
 

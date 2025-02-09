@@ -19,7 +19,7 @@
 		class:variant-soft-tertiary={message?.role === 'user'}
 	>
 		<header class="flex items-center justify-between">
-			<p class="font-bold">{message?.role === 'user' ? 'Você' : 'Zen AI'}</p>
+			<p class="font-bold">{message?.role === 'user' ? 'You' : 'Zen AI'}</p>
 		</header>
 		<div class="markdown" class:placeholder={loading} class:animate-pulse={loading}>
 			<SvelteMarkdown source={message?.parts?.[0]?.text} />
