@@ -41,7 +41,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@google/generative-ai": "^0.11.1",
+		"@google/generative-ai": "^0.21.0",
 		"svelte-markdown": "^0.4.1"
 	}
 }

@@ -3,7 +3,7 @@ import { faqs } from '$lib/data/faq';
 import { GoogleGenerativeAI, TaskType } from '@google/generative-ai';
 
 const genAI = new GoogleGenerativeAI(SECRET_API_KEY);
-const model = genAI.getGenerativeModel({ model: 'embedding-001' });
+const model = genAI.getGenerativeModel({ model: 'text-embedding-004' });
 
 // Helper function used to embed faqs and store the values in faqs array under lib/data/faq.ts
 export const embedRetrievalFaqs = async () => {

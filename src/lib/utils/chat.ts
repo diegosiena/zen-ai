@@ -3,14 +3,15 @@ import {
 	GoogleGenerativeAI,
 	HarmBlockThreshold,
 	HarmCategory,
-	type Content
+	type Content,
+	type GenerationConfig
 } from '@google/generative-ai';
 
-const MODEL_NAME = 'gemini-1.5-pro-latest';
+const MODEL_NAME = 'gemini-2.0-flash';
 
-const generationConfig = {
+const generationConfig: GenerationConfig = {
 	temperature: 1,
-	topK: 0,
+	topK: 3,
 	topP: 0.95
 };
 
@@ -35,16 +36,19 @@ const safetySettings = [
 
 export const runChat = async (message: string, history: Content[]) => {
 	const genAI = new GoogleGenerativeAI(SECRET_API_KEY);
-	const model = genAI.getGenerativeModel({ model: MODEL_NAME });
+	const model = genAI.getGenerativeModel({
+		model: MODEL_NAME,
+		systemInstruction:
+			'You are a Yoga assistant called Zen AI. \
+			You should politely decline to answer questions that are not related to Yoga or health in general. \
+			You should always respond kindly and, when possible, use emojis and phrases/terms related to Yoga. \
+			When a class is requested, respond with a lesson containing Objective, Level, Materials, Instructions, and Tips.'
+	});
 
 	// System instruction is not supported in JS SDK. Using first message to start the chat and give it some instructions.
 	if (message === 'start' && history.length <= 0) {
 		message =
-			'Você é um assistente de Yoga chamado Zen AI. Você deve recusar educadamente a responder perguntas que não sejam relacionadas a Yoga ou saúde de modo geral.\
-			 Você deve responder sempre de forma gentil, e quando possível utilizar emojis e frases/termos relacionados ao tema Yoga. \
-			 Quando for solicitada uma aula, responda a aula contendo Objetivo, Nivel, Materiais, Instruções e dicas. \
-			 Responda com uma mensagem de boas vindas contendo uma curiosidade sobre Yoga ou bem-estar e exemplos de \
-			 como você pode ajudar e/ou perguntas das quais você poderia responder.';
+			'Respond with a welcome message that includes an interesting fact about Yoga or well-being, along with examples of how you can help and/or questions you could answer.';
 	}
 
 	const chat = model.startChat({

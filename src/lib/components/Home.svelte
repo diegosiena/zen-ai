@@ -62,9 +62,8 @@
 	<aside class="alert variant-ghost-warning">
 		<div class="alert-message">
 			<p>
-				Este é apenas um projeto demonstrativo. Erros são esperados, principalmente devido aos
-				limites de requisições da API gratuita do Google AI. Em caso de erro, recarregue a página e
-				tente novamente.
+				This is just a demo project. Errors are expected, mainly due to the request limits of
+				Google's free AI API. If an error occurs, reload the page and try again.
 			</p>
 		</div>
 	</aside>
@@ -87,13 +86,13 @@
 					class="border-0 bg-transparent p-2 ring-0"
 					name="prompt"
 					id="prompt"
-					placeholder="Digite a sua mensagem e clique em 'Enviar' ou pressione enter..."
+					placeholder="Type your message and click 'Send' or press Enter..."
 					rows="2"
 					disabled={loadingChat}
 					on:keydown={onTextKeyDown}
 				/>
 				<button disabled={loadingChat} class="variant-filled-primary" on:click={sendMessage}>
-					Enviar
+					Send
 				</button>
 			</div>
 		</div>

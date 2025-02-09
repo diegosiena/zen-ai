@@ -36,14 +36,14 @@
 					href="/faq"
 					on:click={drawerClose}
 				>
-					Perguntas Frequentes
+					FAQ
 				</a>
 			</li>
 		</ul>
 		<hr class="my-8" />
 	</nav>
 	<p class="px-4 text-center">
-		Feito com ❤️ por <a href="https://www.github.com/diegosiena"><u> Diego Siena</u></a>
+		Made with ❤️ by <a href="https://www.github.com/diegosiena"><u> Diego Siena</u></a>
 	</p>
 </Drawer>
 
@@ -67,7 +67,7 @@
 							href="/faq"
 							on:click={drawerClose}
 						>
-							Perguntas Frequentes
+							FAQ
 						</a>
 					</li>
 				</ul>
@@ -95,7 +95,7 @@
 
 			<svelte:fragment slot="trail">
 				<p class="hidden lg:block">
-					Feito com ❤️ por
+					Made with ❤️ by
 					<a href="https://www.github.com/diegosiena"><u>Diego Siena</u></a>
 				</p>
 				<a
